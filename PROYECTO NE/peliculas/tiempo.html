@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/estilosP.css">
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+		<title>BizMovie-ProyectoNE</title>
+
+		<style type="text/css"> 
+			#banner{
+				background-image: url('https://www.themoviedb.org/t/p/original/3ggzoxHYZFfhAR28Ncl8l11psqi.jpg'); 
+			}		
+		</style>
+
+	</head>
+
+	<body>
+		<!-- Header -->
+		<main>			
+			<div class="content-all">
+				<header></header>
+				<label>
+					BizMovie
+				</label>
+			</div>
+		</main>
+
+		<!-- Banner -->
+		<div class="banner" id="banner">
+			<div class="banner-contenedor">
+				<center><h1 class="banner-titulo">Tiempo</h1>
+
+				<div class="botones">
+					<button class="b"> B</button> •Intriga,Fantástico, Thriller,Drama
+					<br>Duracion: 1h 48m.<button class="hd"> HD</button>
+				</div>
+
+				<div class="banner-sinopsis">
+					Thriller sobre una familia que, estando de vacaciones en un paraíso tropical, descubre que la recóndita playa elegida para relajarse unas horas está haciéndoles envejecer rápidamente... reduciendo toda su vida a un único día.
+				</div></center>
+			</div>
+
+			<div class="banner-fadeBottom"></div>
+		</div>
+
+		<br>
+
+		 <!--Video--> 
+		 <!--Video--> 
+		<div class="video-contenedor">
+			<div class="video">
+				<style>
+			    body {
+			      margin: 0;
+			      padding: 0;
+			      overflow: hidden;
+			    }
+
+			    video {
+			      width: 100%;
+			      height: 50vh; /* 50% de la altura de la ventana */
+			      object-fit: cover; /* Cubre completamente el contenedor manteniendo la proporción de aspecto */
+			      border: 2px solid #fff;
+			      border-radius: 10px;
+			      background-color: black;
+			    }
+  				</style>
+
+				<center><video controls autoplay loop playsinline>
+				  <!-- "controls" agrega los controles del reproductor -->
+				  <!-- "autoplay" reproduce automáticamente el video -->
+				  <!-- "loop" hace que el video se repita -->
+				  <!-- "playsinline" permite que el video se reproduzca en línea en dispositivos móviles -->
+
+				  <source src="videos/.mp4" type="videos/mp4">
+				  <!-- Agrega la fuente del video con el tipo de archivo -->
+
+				  Tu navegador no soporta el elemento de video.
+				</video></center>	
+			</div>
+		</div>
+
+		<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	</body>
+</html>

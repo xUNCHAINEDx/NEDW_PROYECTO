@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/estilosP.css">
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+		<title>BizMovie-ProyectoNE</title>
+
+		<style type="text/css"> 
+			#banner{
+				background-image: url('https://www.themoviedb.org/t/p/original/kaIfm5ryEOwYg8mLbq8HkPuM1Fo.jpg'); 
+			}		
+		</style>
+
+	</head>
+
+	<body>
+		<!-- Header -->
+		<main>			
+			<div class="content-all">
+				<header></header>
+				<label>
+					BizMovie
+				</label>
+			</div>
+		</main>
+
+		<!-- Banner -->
+		<div class="banner" id="banner">
+			<div class="banner-contenedor">
+				<center><h1 class="banner-titulo">Thor:Ragnarok (2017)</h1>
+
+				<div class="botones">
+					<button class="b"> B</button> •Acción, Aventura, Ciencia ficción
+					<br>Duracion: 1h 54m.<button class="hd"> HD</button>
+				</div>
+
+				<div class="banner-sinopsis">
+					Thor está preso al otro lado del universo sin su poderoso martillo y se enfrenta a una carrera contra el tiempo. Su objetivo es volver a Asgard y parar el Ragnarok porque significaría la destrucción de su planeta natal y el fin de la civilización Asgardiana a manos de una todopoderosa y nueva amenaza, la implacable Hela.
+				</div></center>
+			</div>
+
+			<div class="banner-fadeBottom"></div>
+		</div>
+
+		<br>
+		<br>
+		<br>
+		
+		  <!--Video--> 
+		<div class="video-contenedor">
+			<div class="video">
+				<style>
+			    body {
+			      margin: 0;
+			      padding: 0;
+			      overflow: hidden;
+			    }
+
+			    video {
+			      width: 100%;
+			      height: 50vh; /* 50% de la altura de la ventana */
+			      object-fit: cover; /* Cubre completamente el contenedor manteniendo la proporción de aspecto */
+			      border: 2px solid #fff;
+			      border-radius: 10px;
+			      background-color: black;
+			    }
+  				</style>
+
+				<center><video controls autoplay loop playsinline>
+				  <!-- "controls" agrega los controles del reproductor -->
+				  <!-- "autoplay" reproduce automáticamente el video -->
+				  <!-- "loop" hace que el video se repita -->
+				  <!-- "playsinline" permite que el video se reproduzca en línea en dispositivos móviles -->
+
+				  <source src="videos/.mp4" type="videos/mp4">
+				  <!-- Agrega la fuente del video con el tipo de archivo -->
+
+				  Tu navegador no soporta el elemento de video.
+				</video></center>	
+			</div>
+		</div>
+
+		<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	</body>
+</html>
