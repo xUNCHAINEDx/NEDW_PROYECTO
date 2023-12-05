@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/estilos.css">
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<title>BizMovie-ProyectoNE</title>
+	</head>
+
+	<body>
+		<!-- Header -->
+		<!--top 10 de peliculas-->
+		<main>			
+			<div class="content-all">
+				<header></header>
+				<label>
+					<img src="img/2.png" float="left" width="110" height="90">
+				</label>
+				<div class="txt">
+				<label>
+					<p><br>&nbsp;BizMovie</p>
+				</label>
+				</div>
+
+				<div class="btn">
+					<a href="buscador.html"><i class="fa fa-search"></i></a>
+				</div>
+			</div>
+		</main>
+		<br>
+	<!--Cuadro de mensaje a usuario--> 
+		<form id="formulario">
+		<div>
+				<label for="titulo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suscribete&nbsp;a&nbsp;nuestro&nbsp;newsletter</label>
+				<br>
+				<br>
+			<label for="name">Nombre:</label>
+			<center><input type="text" id="name" name="user_name" /></center>
+		</div>
+		<div>
+		<label for="mail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Correo&nbsp;electrónico:</label>
+		<center><input type="email" id="mail" name="user_email" /></center>
+   		</div>
+	<div>
+			<label for="msg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sugerencias:</label>
+			<center><textarea id="msg" name="user_message"></textarea></center>
+		</div>
+
+		<div class="button">
+			<button type="button" onclick="mostrarAgradecimiento()">Enviar informacion</button>
+		</div>
+		</form>
+		<div id =agradecimiento style="display:none;">
+			<br>
+			<h2><center>¡Gracias por ser parte de BizMovie!</h2></center>
+		</div>
+
+		<script>
+			function mostrarAgradecimiento() {
+            document.getElementById('formulario').style.display = 'none';
+            document.getElementById('agradecimiento').style.display = 'block';
+        }
+		</script>
+
+  		<br>
+
+
+		<div class="container">
+			<div class="item">
+				<a href="peliculas/leo.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dG9Y2Bi0qvsUIWCy08vBUpGJB6h.jpg
+				" alt="" class="item-img"></a>
+			</div>
+
+			<div class="item">
+				<a href="peliculas/oppenheimer.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ncKCQVXgk4BcQV6XbvesgZ2zLvZ.jpg
+				" alt="" class="item-img"></a>
+			</div>
+
+			<div class="item">
+				<a href="peliculas/juegocalamar.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AvOcYB2lcqRFvhq3ybJlcXgpRRu.jpg
+				" alt="" class="item-img"></a>
+			</div>
+
+			<div class="item">
+				<a href="peliculas/monarch.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rDDBsWfEjWxKa7Ev8FYgMltJc3z.jpg
+				" alt="" class="item-img"></a>
+			</div>
+
+			<div class="item">
+				<a href="peliculas/napoleon.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kSHOvH7wQxCch5cdF4n4tJ18dUf.jpg" alt="" class="item-img"></a>
+			</div>
+
+			<div class="item">
+				<a href="peliculas/elconejodepeluche.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sp9gKDSWOpAiyoWLBddgqfilgQl.jpg" alt="" class="item-img"></a>
+			</div>
+
+			<div class="item">
+				<a href="peliculas/trolls3.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yco6dWR1W3iANUEKxGT0vQRWrJn.jpg" alt="" class="item-img"></a>
+			</div>
+
+			<div class="item">
+				<a href="peliculas/fargo.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6U9CPeD8obHzweikFhiLhpc7YBT.jpg" alt="" class="item-img"></a>
+			</div>
+
+			<div class="item">
+				<a href="peliculas/lahijadelrey.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nIJqakFZbzLoi81wNlWIrUQNgCZ.jpg" alt="" class="item-img"></a>
+			</div>
+
+			<div class="item">
+				<a href="peliculas/resistencia.html"><img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/c6otMCRG9bZzI97o9V8hCkOgUvA.jpg" alt="" class="item-img"></a>
+			</div>
+
+			</div>
+		</div>
+	</main>
+	<br>
+	
+		<!--Video--> 
+		<div class="video-contenedor">
+			<div class="video">
+				<br>
+				<br>
+				<br>
+				<br>
+				<center><iframe width="600" height="400" src="https://www.youtube.com/embed/M8CPW0EBqX8?si=VJLfvRBNWzwqZwC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; contorls =1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="background-color: black; border-color: #fff; border-radius: 10px; border-style: solid; border-width: 2px;" width="100%"></iframe></center>	
+			</div>
+		</div>
+
+	</body>
+</html>
